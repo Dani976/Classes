@@ -17,13 +17,13 @@ namespace Class
     {
         static void Main()
         {
-            Person person1 = new Person("Leopold", 6);
+            Person person1 = new Person("Leo", 8);
             Console.WriteLine("person1 Name = {0} Age = {1}", person1.Name, person1.Age);
 
             Person person2 = person1;
 
             person2.Name = "Molly";
-            person2.Age = 16;
+            person2.Age = 61;
 
             Console.WriteLine("person2 Name = {0} Age = {1}", person2.Name, person2.Age);
             Console.WriteLine("person1 Name = {0} Age = {1}", person1.Name, person1.Age);
